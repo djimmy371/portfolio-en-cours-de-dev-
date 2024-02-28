@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: grey;
+}
+
+.navbar {
+  background-color: red;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 30px;
+  font-family: Allan;
+  font-size: 2rem;
+
+}
+
+.navbar #logo {
+  color: white;
+  font-size: 2.5rem;
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: Bangers;
+
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+/* .btn-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+} */
+.btn1,
+.btn2 {
+  display: flex;
+  align-items: center;
+  color: red !important;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 30px; /* Tous les coins avec un rayon de 30 pixels */
+  box-shadow: 
+    0 0 0 2px red, /* Bordure externe rouge */
+    0 0 0 5px black; /* Bordure interne noire */
+}
+
+.btn2 {
+  margin-left: 30px !important;
+}
+.bulle {
+  width: 1590px;
+  height: 639px;
+  background-color: #ccc;
+  border-radius: 100px;
+  border: 10px solid black; /* Ajoute une bordure noire de 2px autour du border-radius */
+
+  position: relative;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.boutons {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  margin-left: 50px 
+  
+}
+.boutons img {
+  margin-right: 10px;
+  
+}
+.bulle p {
+  font-family: Allan;
+  font-size: 2rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-bottom: 100px;
+}
+
+.line1 {
+  margin-top: 100px;
+  width: 1529px;
+  height: 5;
+
+}
+
+.bulle-image {
+  width: 300px; /* Ajustez la largeur de la bulle selon vos besoins */
+  height: 300px; /* Ajustez la hauteur de la bulle selon vos besoins */
+  background-image: url(assets/img/3D.png);
+  background-color: red;
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+  margin: 50px 0 50px 95px; /* Ajustez les marges pour centrer la bulle horizontalement */
+  overflow: hidden; /* Pour que le contenu (image) respecte les bords arrondis de la bulle */
+}
+
+.text-presentation {
+  margin-top: 100px;
+  margin-right: 400px;
+  font-family: Bangers !important;
+  font-size: 5rem !important;
+  color: red;
+  -webkit-text-stroke: 3px black; /* Ajoute un contour noir autour du texte */
+}
+.infos-presentation {
+  margin-top: 250px;
+  font-family: Allan;
+  font-size: 3rem !important;
+  margin-right: 100px;
+}
+.bulle2 {
+  width: 1532px;
+  height: 418px;
+  background-color: #ccc;
+  border-radius: 100px;
+  border: 10px solid black; /* Ajoute une bordure noire de 2px autour du border-radius */
+
+  position: relative;
+  margin-left: 140px;
+  margin-top: 100px;
+}
+.bulle2-p {
+  font-family: Allan;
+  font-size: 2rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-bottom: 100px;
+}
+.bulle-images-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 20px;
+}
+.bulle-image2 {
+  width: 142px;
+  height: 200px;
+  text-align: center;
+}
+.texte-html {
+  margin-top: 10px;
+  font-family: Allan;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.bulle3-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bulle3 {
+  max-width: 459px;
+  height: 418px;
+  background-color: #ccc;
+  border-radius: 80px;
+  border: 4px solid black;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.line3 {
+  margin-top: -10px;
+  position: relative;
+}
+.boutons-competence2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+.boutons-competence2 img {
+  margin-right: 10px;
+}
+.bulle3-p1 {
+  font-family: Allan;
+  font-size: 2rem; 
+  margin-left: 10px;
+  position: relative;
+  text-align: center;
+}
+.bulle3-p2 {
+  font-family: Allan;
+  font-size: 2rem; 
+  margin-left: 60px;
+  position: relative;
+  text-align: center;
+}
+.bulle3-p3 {
+  font-family: Allan;
+  font-size: 2rem; 
+  margin-left: 80px;
+  position: relative;
+  text-align: center;
+}
+.texte-competence2 {
+  text-align: justify;
+  margin-top: -20px; /* Adjusted negative margin-top for .texte-competence2 */
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  padding: 20px;
+  font-family: Allan;
+  font-size: 1.8rem;
+}
+.btn-cv {
+  height: 79px;
+  width: 373px;
+  color: white !important;
+  font-family: Bangers;
+  font-size: 2.5rem;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 30px; /* Tous les coins avec un rayon de 30 pixels */
+  box-shadow: 
+    0 0 0 2px red, /* Bordure externe rouge */
+    0 0 0 5px black; /* Bordure interne noire */
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+.text-apropos {
+  /* margin-left: 750px; */
+  position: relative;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 4rem;
+  font-family: Bangers;
+  color: red;
+}
+
+.diplome {
+  flex-direction: row;
+}
+
+.bulle4-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bulle4 {
+  max-width: 459px;
+  height: 271px;
+  background-color: #ccc;
+  border-radius: 75px;
+  border: 4px solid black;
+  position: sticky;
+  margin-bottom: 20px;
+  margin-right: 600px;
+}
+.bulle4-pA {
+  font-size: 1.8rem;
+  position: relative;
+  text-align: right;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  font-family: Allan;
+  top: -15px;
+}
+.bout-orange {
+  position: relative;
+  top: 50px;
+  margin-left: 30px;
+}
+.line4 {
+  margin-right: 10px;
+  position: relative;
+  top: -30px;
+}
+.texte-diplome {
+  font-size: 1.8rem;
+  font-family: Allan;
+  margin-left: 70px;
+  position: relative;
+  top: -30px
+}
+.diplomes24 {
+  font-family: Bangers;
+  font-size: 4rem;
+  color: red;
+  position: absolute;
+  left: 37%;
+  bottom: -35%;
+  -webkit-text-stroke: 3px black;
+}
+  .rotate-diplome {
+    width: 212px; /* Ajustez la largeur de l'image selon vos besoins */
+    height: 212px; /* Ajustez la hauteur de l'image selon vos besoins */
+    border-radius: 20px;
+    position: absolute;
+    right: 750px; /* Ajustez la distance par rapport à la droite */
+    top: 2560px;
+    transform: translate(0, -50%); /* Ajuste la position verticale pour être centrée */
+  }
+
+.text-diplomes {
+    font-family: Bangers;
+    font-size: 4rem;
+    border-radius: 20px;
+    position: absolute;
+    right: 500px; /* Ajustez la distance par rapport à la droite */
+    top: 2460px;
+    transform: translate(0, -50%); /* Ajuste la position verticale pour être centrée */
+    color: white;
+    letter-spacing: 8px;
+}
+
+.flex-diplomeopen {
+  flex-direction: column;
+}
+
+
+.bulle5-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bulle5 {
+  max-width: 459px;
+  height: 398px;
+  background-color: #ccc;
+  border-radius: 75px;
+  border: 4px solid black;
+  position: sticky;
+  margin-bottom: 20px;
+  margin-right: -500px;
+  margin-top: -80px;
+}
+.bulle5-pA {
+  font-size: 1.8rem;
+  position: relative;
+  text-align: right;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  font-family: Allan;
+  top: -15px;
+}
+.bout2-orange {
+  position: relative;
+  top: 50px;
+  margin-left: 30px;
+}
+.line5 {
+  margin-right: 10px;
+  position: relative;
+  top: -25px;
+}
+.texte-diplome2 {
+  font-size: 1.8rem;
+  font-family: Allan;
+  margin-left: 70px;
+  position: relative;
+  top: -30px
+}
+.diplomes24-2 {
+  font-family: Bangers;
+  font-size: 4rem;
+  color: red;
+  position: absolute;
+  left: 37%;
+  bottom: -26%;
+  -webkit-text-stroke: 3px black;
+}
+  .rotate-diplome {
+    width: 212px; /* Ajustez la largeur de l'image selon vos besoins */
+    height: 212px; /* Ajustez la hauteur de l'image selon vos besoins */
+    border-radius: 20px;
+    position: absolute;
+    right: 750px; /* Ajustez la distance par rapport à la droite */
+    top: 2560px;
+    transform: translate(0, -50%); /* Ajuste la position verticale pour être centrée */
+  }
+
+.text-diplomes {
+    font-family: Bangers;
+    font-size: 4rem;
+    border-radius: 20px;
+    position: absolute;
+    right: 500px; /* Ajustez la distance par rapport à la droite */
+    top: 2460px;
+    transform: translate(0, -50%); /* Ajuste la position verticale pour être centrée */
+    color: white;
+    letter-spacing: 8px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+@media only screen and (max-width: 600px) {
+  /* Styles for small screens */
+}
